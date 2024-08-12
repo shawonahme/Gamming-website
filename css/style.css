@@ -1,6 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
 *{
 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: "Montserrat", sans-serif;
+}
+/* 
+h1 {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#ff0095, #ce0cff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  } */
+
+  /* header style start  */
+   .header_section{
+    background-color: #ffff;
+    box-shadow: 0px 2px 9px 2px #8080803b;
+   }
+.navbar,.banner{
+    width: 80%;
+    margin: 0px auto;
+}
+  .nav_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+    height: 100px;
+    /* background-color: red; */
+    align-items: center;
+  }
+  .nav_item_1{
+   display: flex;
+   height: 50px;
+   align-items: center;
+   
+  }
+  .nav_item_1 img{
+    width: 80%;
+   
+  }
+  .nav_h2{
+    font-size: 2.5rem;
+    padding-left: 20px;
+  }
+  .nav_span{
+    color:#FF42A5 ;
+  }
+  .ul_nav_ul{
+    list-style: none;
+   
+  }
+  .na_li{
+    display: inline;
+    margin: 0px 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    box-sizing:border-box;
+  }
+  .s_li{
+    background-color: #E7E6E9;
+    padding: 15px ;
+    border-radius: 5px;
+  }
+  .a_link{
+    text-decoration: none;
+    color: black;
+    
+  }
+/* banner style here  */
+.ban_container{
+    display: flex;
+     
+   gap: 40px;
+}
+.ban_item_1{
+    background-image: url(../images/Group\ 14.png);
+   object-fit: contain;
+    flex-basis: 50%;
+    background-size: contain;
+    background-repeat:repeat;
+    background-position: center;
+    /* height: 100vh; */
+}
+.ban_p{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-top: 100px;
+
+
+}
+.ban_h1{
+    background: -webkit-linear-gradient(#d400ff, #ff0095 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.7rem;
+    font-weight: 800;
+    padding-top: 10px;
+}
+  .ban_item_2 img{
+    width: 100%;
+   
+  }
+  .ban_item_2{
+  
+    /* padding-left: 40px; */
+    
+  }
+  .ban_ul{
+    color: #837D8F;
+    list-style: none;
+    font-size: .9rem;
+    line-height: 2rem;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  .ban_btn{
+    padding-top: 20px;
+  }
+  .btn_1{
+    background-color: #FF42A5;
+    color: #FFFF;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 25px;
+    /* font-size: 1.2rem; */
+    text-transform: uppercase;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  .btn_2{
+    background-color: #4EC5F7;
+    color: #FFFF;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 25px;
+    /* font-size: 1.2rem; */
+    text-transform: uppercase;
+    
+    cursor: pointer;
+  }
+ 
+  
