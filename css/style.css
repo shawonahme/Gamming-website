@@ -95,7 +95,7 @@ h1 {
 
 }
 .ban_h1{
-    background: -webkit-linear-gradient(#d400ff, #ff0095 );
+    background: -webkit-linear-gradient(#ff009d, #b700ff );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 3.7rem;
@@ -106,11 +106,7 @@ h1 {
     width: 100%;
    
   }
-  .ban_item_2{
-  
-    /* padding-left: 40px; */
-    
-  }
+ 
   .ban_ul{
     color: #837D8F;
     list-style: none;
@@ -146,3 +142,59 @@ h1 {
   }
  
   
+  /* grammer style  */
+  .grammer_section{
+    background-color: #FFF9FC;
+  }
+  .grammer_container{
+    display: flex;
+    width: 80%;
+    margin: 0px auto;
+    gap: 20px;
+    padding: 40px 0px;
+  }
+  .grammer_item1{
+    flex-basis: 60%;
+  }
+  .grammer_item1 img{
+    width: 100%;
+  }
+  .grammer_item2{
+    flex-basis: 40%;
+    text-align: right;
+  }
+  .grammer_h1{
+    background: -webkit-linear-gradient(#ff009d, #b700ff );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    margin-top: 50px;
+  }
+  .grammer_p{
+    font-size: .8rem;
+    color: #837D8F;
+    line-height: 1.5rem;
+    padding-left: 30px;
+    padding: 20px 0px 20px 50px;
+  }
+  .btn_s{
+    background-color: #FF42A5;
+    color: #FFFF;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 25px;
+    /* font-size: 1.2rem; */
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  .grammer_p2{
+    color: #837D8F;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    
+  }
+  .grammer_h3{
+    color: #534C64;
+  }
