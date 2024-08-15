@@ -176,6 +176,7 @@ h1 {
     line-height: 1.5rem;
     padding-left: 30px;
     padding: 20px 0px 20px 50px;
+    font-weight: 600;
   }
   .btn_s{
     background-color: #FF42A5;
@@ -198,3 +199,234 @@ h1 {
   .grammer_h3{
     color: #534C64;
   }
+  /* videos style here  */
+
+  .videos_section{
+    width: 80%;
+    margin: 100px auto;text-align: center;
+  }
+  .videos_h1{
+    background: -webkit-linear-gradient(#ff009d, #b700ff );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    margin-bottom: 10px;
+   
+  }
+  .videos_p{
+    color:#928D9D ;
+    font-size: .8rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  .videos_container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+  }
+  .video_img img{
+    width: 100%;
+    
+
+
+  }
+
+ .video_img{
+ position: relative;
+ transition: all .3s;
+ margin: 10px;
+
+
+
+
+ }
+ .video_img:hover{
+  border: 2px solid #FF42A5 ;
+  border-radius: 15px;
+ 
+ }
+  .videos_P2{
+    margin: 10px;
+    font-size: .8rem;
+    font-weight: 700;
+    text-align: left;
+    color:#928D9D ;
+    line-height: 1.5rem;
+    padding-right: 5px;
+  }
+  .videos_show{
+    
+    position: absolute;
+    left: 35%;
+    top: 45%;
+   color: #FF42A5;
+   display: none;
+   
+  
+  }
+  .video_img img{
+    transition: all .3s;
+    background-position: center;
+  }
+  .video_img img:hover+.videos_show{
+    display: block;
+  }
+  .videos_show span{
+    font-size: .8rem;
+    font-weight: 600;
+  }
+  
+  .video_img img:hover{
+    filter: brightness(60%);
+  
+   
+  }
+  /* play style here  */
+  .play_section{
+    width: 80%;
+    height: 100%;
+    margin: 50px auto;
+    /* background-color: rebeccapurple; */
+   
+  }
+  .paly_container{
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 200px;
+
+  }
+  .play_item_1{
+    flex-basis: 50%;
+    /* background-color: yellow; */
+  }
+  .play_item_2{
+    flex-basis: 50%;
+    /* background-color: green; */
+    position: relative;
+    text-align: right;
+   
+  }
+ 
+  .play_img_1{
+    width: 85%;
+    margin-right: 0;
+    height: 100%;
+    
+  }
+  .play_item_1_content{
+    width: 50%;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    margin: 0 auto;
+    text-align: right;
+   
+  }
+  
+  .play_item_1_h1{
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .play_item_1_p{
+    font-size: .8rem;
+    color:#928D9D ;
+    line-height: 1.3rem;
+    margin-top: 10px;
+  }
+  .play_img_2{
+    width: 40%;
+    position: absolute;
+    bottom: -20%;
+    left: 0;
+
+  }
+  .play_item_2_1{
+    text-align: left;
+  }
+  .play_img_2_1{
+    width: 40%;
+    position: absolute;
+    bottom: -20%;
+    right: 0;
+  }
+  .play_item_1_content_1{
+    width: 56%;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    margin: 0 auto;
+    text-align: left;
+   
+  }
+  /* career style start here  */
+
+  .career_section{
+    background-color:#FF42A5 ;
+  }
+  .carrer_container{
+    display: flex;
+  }
+  
+  .career_item_1{
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    flex-basis: 50%;
+   
+  }
+  .career_content_2{
+    
+    display: flex;
+    justify-content: space-between;
+  }
+  .career_ul_1 ,.career_ul_2{
+    list-style: none;
+    color: #FFFF;
+    font-size: .9rem;
+    line-height: 2rem;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .career_ul_2{
+   
+    text-align: right;
+   
+  }
+  .career_h1{
+    color: #FFFF;
+    font-size: 2rem;
+  }
+  .career_p{
+    color: #FFFF;
+    font-size: .9rem;
+    line-height: 1.3rem;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+.career_btn{
+  border-style: none;
+  padding: 10px 20px;
+  color:#FF42A5 ;
+  border-radius: 20px;
+  margin-top: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+  .career_item_2{
+    background-image: url(../images/Group\ 65.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    flex-basis: 50%;
+    
+  } 
