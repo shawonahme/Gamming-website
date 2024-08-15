@@ -1,0 +1,385 @@
+@media screen and (min-width:768.1px) and (max-width:992px) {
+    nav.navbar {
+        width: 95%;
+    }
+    
+    h2.nav_h2 {
+        font-size: 2rem;
+    }
+    
+    .nav_item_1 img {
+        width: 70%;
+    }
+    
+    p.ban_p {
+       
+        padding-top: 30px;
+    }
+    
+    .grammer_container {
+        width: 90%;
+        align-items: center;
+    }
+    
+    .grammer_item2 {
+        flex-basis: 40%;
+    }
+    
+    .grammer_item1 {
+        height: 100%;
+       
+    }
+    
+    section.videos_section {
+        width: 90%;
+    }
+    
+    p.videos_P2 {
+        font-size: .6rem;
+        padding: 0px;
+    }
+    
+   
+    
+    section.play_section {
+        width: 90%;
+    }
+    
+    .play_item_1_content {
+        width: 71%;
+    }
+    
+    .play_item_1_content_1 {
+        width: 87%;
+    }
+    
+    .carrer_container {
+        flex-direction: column;
+    }
+    
+    .career_item_1 {
+        padding: 90px;
+    }
+    
+    .career_item_2 {
+        /* width: 80%; */
+        margin: 0px auto;
+    }
+    
+   
+    
+    .game_type_container {
+        width: 90%;
+    }
+    
+    .footer_container {
+        width: 80%;
+    }
+    
+    ul.ul_1 {
+        font-size: .9rem;
+    }
+}
+
+@media screen and (min-width:576.1px) and (max-width:768px) {
+    header.header_section {
+        box-shadow: none;
+    }
+    
+    .nav_container {
+        flex-direction: column;
+        height: 100%;
+        gap: 34px;
+    }
+    
+    li.na_li {
+        margin: 21px;
+    }
+    
+    nav.navbar {
+        width: 90%;
+    }
+    
+    .ban_container {
+        flex-direction: column;
+    }
+    
+    .ban_item_1 {
+        text-align: center;
+    }
+    
+    section.banner {
+        width: 100%;
+    }
+    
+    img.ban_2_img {
+        width: 100%;
+        
+    }
+    
+    .ban_item_2 {
+        width: 80%;
+        margin: 0px auto;
+    }
+    
+    
+    
+    .grammer_container {
+        flex-direction: column-reverse;
+    }
+    
+    .grammer_item2 {
+        text-align: center;
+    }
+    
+    p.grammer_p {
+        padding: 20px;
+    }
+    
+    .videos_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    p.videos_P2 {
+        padding: 0px;
+    }
+    
+    .paly_container {
+        flex-direction: column;
+    }
+    
+    .play_item_1_content {
+        text-align: center;
+        width: 70%;
+        margin-bottom: 12px;
+    }
+    
+    .play_item_2 {
+        width: 70%;
+        margin: 0px auto;
+    }
+    
+    .paly_container_1 {
+        margin-top: 20px;
+        flex-direction: column-reverse;
+    }
+    
+    
+    
+    .play_item_1_content_1 {
+        width: 68%;
+        margin-top: 81px;
+        text-align: center;
+    }
+    
+    
+    
+    .paly_container {
+        margin-bottom: 50px;
+    }
+    
+    section.play_section {
+        margin: 121px auto;
+    }
+    
+    .play_item_1 {
+        margin-bottom: 20px;
+    }
+    
+    .carrer_container {
+        flex-direction: column;
+    }
+    
+    .career_item_1 {
+        padding: 20px;
+    }
+    
+    .career_item_2 img {
+        width: 90%;
+      
+    }
+    
+    .career_item_2 {
+        margin: 0px auto;
+        text-align: center;
+    }
+    
+    .game_type_container {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        width: 95%;
+        gap: 5px;
+    }
+    
+    .game_type_item_1 span {
+        font-size: .7rem;
+    }
+    
+    .footer_container {
+        width: 95%;
+    }
+    
+    ul.ul_1 {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .nav_container {
+        flex-direction: column;
+        height: 100%;
+    }
+    
+    li.na_li {
+        text-align: center;
+        display: block;
+        margin: 50px 0px;
+    }
+    
+    header.header_section {
+        box-shadow: none;
+    }
+    
+    .ban_container {
+        flex-direction: column-reverse;
+    }
+    
+    section.banner {
+       
+        text-align: center;
+    }
+    
+    .grammer_container {
+        flex-direction: column;
+    }
+    
+    .grammer_item2 {
+        text-align: center;
+    }
+    
+    .videos_container {
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    
+    p.videos_P2 {
+        text-align: center;
+    }
+    
+    .paly_container {
+        flex-direction: column;
+    }
+    
+   
+    
+    .play_item_1_content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .paly_container_1 {
+        flex-direction: column-reverse;
+    }
+    .play_item_1_content_1 {
+        width: 100%;
+        text-align: center;
+       
+    }
+    
+    .paly_container_1 {
+        flex-direction: column-reverse;
+    }
+    
+    .play_item_1_content_1 {
+        margin-bottom: 20px;
+    }
+    
+    .play_item_1_content {
+        margin-bottom: 20px;
+    }
+    .video_img img {
+        width: 80%;
+    }
+    
+    p.videos_P2 {
+      
+        width: 75%;
+        text-align: center;
+        margin: 0px auto;
+    }
+    .carrer_container {
+        flex-direction: column;
+    }
+    
+    .career_item_1 {
+        padding: 17px;
+    }
+    
+    .career_item_2 {
+        padding: 20px;
+    }
+    
+    ul.career_ul_1 {
+        font-size: .7rem;
+    }
+    
+    ul.career_ul_2 {
+        font-size: .7rem;
+    }
+
+    
+   
+    
+
+    
+   
+    
+    .game_type_container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 99%;
+        gap: 5px;
+        margin: 0px auto;
+    }
+    
+    
+    
+    .game_type_item_1 span {
+        font-size: .6rem;
+    }
+    
+    .game_type_item_1 img {
+        width: 20%;
+    }
+    
+    ul.ul_1 {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        font-size: 0.8rem;
+    }
+    
+    .footer_container {
+        width: 90%;
+        margin: 0px auto;
+        padding: 10px;
+    }
+    
+    ul.ul_2 {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 58px;
+    }
+    
+    ul.ul_3 {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+    
+    p.grammer_p {
+        padding: 13px;
+    } 
+}
+
